@@ -12,13 +12,13 @@ export default function Navbar() {
         {/* Left: Navigation Links */}
         <div className="flex space-x-6 font-medium">
           <Link
-            to="/"
+            to="/about"
             className="hover:text-blue-600 transition-colors"
           >
             About
           </Link>
           <Link
-            to="/about"
+            to="/"
             className="hover:text-blue-600 transition-colors"
           >
             Home
