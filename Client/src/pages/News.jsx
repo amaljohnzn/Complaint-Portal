@@ -57,7 +57,7 @@ export default function News() {
                   <img
                     src={n.imageUrl}
                     alt={n.title}
-                    className="w-full h-56 md:h-full object-cover"
+className="w-full h-48 object-cover"
                   />
                   <div className="absolute bottom-3 left-3 bg-black/50 text-white text-xs rounded-lg px-3 py-2 space-y-1">
                     
@@ -73,7 +73,7 @@ export default function News() {
                 <h2 className="text-xl font-bold text-gray-900">{n.title}</h2>
                 {n.createdBy && (
                   <p className="text-sm text-indigo-600 font-medium mt-1">
-                    By {n.createdBy}
+                  Auther: Muncipal
                   </p>
                 )}
                 <p className="text-sm text-gray-600 mt-3 line-clamp-3">
