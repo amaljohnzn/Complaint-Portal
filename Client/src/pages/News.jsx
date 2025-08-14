@@ -73,7 +73,7 @@ className="w-full h-48 object-cover"
                 <h2 className="text-xl font-bold text-gray-900">{n.title}</h2>
                 {n.createdBy && (
                   <p className="text-sm text-indigo-600 font-medium mt-1">
-                  Auther: Muncipal
+                  Author: Muncipal
                   </p>
                 )}
                 <p className="text-sm text-gray-600 mt-3 line-clamp-3">
